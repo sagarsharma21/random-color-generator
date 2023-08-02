@@ -11,6 +11,8 @@ const getColor = () => {
     
     document.body.style.backgroundColor = color_code;
 
+    const b = document.getElementById("color-code");
+    b.innerHTML = color_code;
 }
 
 //event call / manual (using onclick)
